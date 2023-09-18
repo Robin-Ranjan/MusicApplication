@@ -14,6 +14,6 @@ class SplachView : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(Intent(this@SplachView,MainActivity::class.java))
             finish()
-        },3000)
+        },4000)
     }
 }
